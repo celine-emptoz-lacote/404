@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    height: 100vh;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    color: #002c7d;
+    text-shadow:0.1em 0.1em 0.2em black;
+}
+
+h1::before {
+    content:'';
+    display:inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: 3px;
+    background: #002c7d; 
+}
+
+h1::after {
+    content:'';
+    display:inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: 3px;
+    background: #002c7d ;
+}
+
+
+span {
+    font-size: 60px;
+    color: #6abae1;
+    font-weight: bold;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-weight: bold;
+}
+
+.text {
+    font-family: 'Old Standard TT', serif;
+}
+
+div {
+    background-color: #002c7d;
+}
